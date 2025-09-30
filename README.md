@@ -15,15 +15,12 @@ A collaborative website built by Tech Club members to practice Git, GitHub, and 
 - Right-click `index.html` → **Open with Live Server**.
 
 ## Project structure
-/data/members.json
-/images/ (headshots, logo)
-/styles/main.css
-/scripts/main.js
-index.html
-about.html
-
-less
-Copy code
+- /data/members.json
+- /images/ (headshots, logo)
+-/styles/main.css
+-/scripts/main.js
+-index.html
+-about.html
 
 ## Code of Conduct
 We follow the Contributor Covenant (see `CODE_OF_CONDUCT.md`).
