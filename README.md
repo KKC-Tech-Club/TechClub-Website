@@ -2,25 +2,93 @@
 
 A collaborative website built by Tech Club members to practice Git, GitHub, and open-source workflows.
 
-## How to contribute (TL;DR)
-1) Click **Use this template** or **Fork** (or create a branch if you’re a collaborator).
-2) Edit `data/members.json` to add yourself (see schema).
-3) Run locally (Codespaces → Live Server).
-4) Commit → Push → Open a Pull Request.
-5) Ask a peer for review. Once approved, we merge—and the live site updates via GitHub Pages.
+---
 
-## Dev in Codespaces
-- Open this repo → **Code** → **Create codespace**.
-- In VS Code (in the browser), install the **Live Server** extension.
-- Right-click `index.html` → **Open with Live Server**.
+## 🚀 How to Contribute (Quick Start)
 
-## Project structure
-- /data/members.json
-- /images/ (headshots, logo)
-- /styles/main.css
-- /scripts/main.js
-- index.html
-- about.html
+1. Open this repo inside the **KKC TechClub organization**.
 
-## Code of Conduct
+2. Create a new branch for your work:
+
+   ```bash
+   git checkout -b feature/your-name-card
+   ```
+
+   Example branch name: `feature/jane-doe-card`
+
+3. Edit `data/members.json` to add yourself (see schema below).
+
+4. (Optional) Add your headshot to `/images` and reference it in your entry.
+
+5. Run locally with **Codespaces → Live Server** to preview your change.
+
+6. Commit & push your branch:
+
+   ```bash
+   git add .
+   git commit -m "feat: add Jane Doe card"
+   git push --set-upstream origin feature/jane-doe-card
+   ```
+
+7. Open a **Pull Request** from your branch → `main`.
+
+8. Ask a peer (or coordinator) for review. Once approved, your PR will be merged—and the live site updates automatically via GitHub Pages.
+
+---
+
+## 🖥 Dev in Codespaces
+
+* Open this repo → **Code** → **Create codespace**.
+* In VS Code (in the browser), install the **Live Server** extension.
+* Right-click `index.html` → **Open with Live Server** to preview.
+
+---
+
+## 📂 Project Structure
+
+```
+/data/members.json   ← all member entries
+/images/             ← headshots, logo
+/styles/main.css     ← site styles
+/scripts/main.js     ← JS logic
+index.html           ← homepage
+about.html           ← about page
+```
+
+---
+
+## 📜 Member JSON Schema
+
+Each member entry in `data/members.json` should look like this:
+
+```json
+{
+  "name": "Jane Doe",
+  "role": "Member",
+  "interests": ["AI", "Web", "Cyber"],
+  "github": "janedoe",
+  "image": "images/jane.jpg"
+}
+```
+
+⚠️ Watch commas and quotes—invalid JSON will break the site.
+
+---
+
+## 🤝 Code of Conduct
+
 We follow the Contributor Covenant (see `CODE_OF_CONDUCT.md`).
+Be kind, respectful, and collaborative.
+
+---
+
+## ✅ Quick Rules
+
+* Always create a branch (`feature/your-name-card`) before making changes.
+* Keep PRs small and focused.
+* One approval required before merging into `main`.
+* Never push directly to `main`.
+
+---
+
+🎉 Once your PR is merged, check out the live site on GitHub Pages to see your card!
