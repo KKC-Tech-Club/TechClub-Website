@@ -17,10 +17,10 @@ A collaborative website built by Tech Club members to practice Git, GitHub, and 
 ## Project structure
 - /data/members.json
 - /images/ (headshots, logo)
--/styles/main.css
--/scripts/main.js
--index.html
--about.html
+- /styles/main.css
+- /scripts/main.js
+- index.html
+- about.html
 
 ## Code of Conduct
 We follow the Contributor Covenant (see `CODE_OF_CONDUCT.md`).
