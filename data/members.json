@@ -2,9 +2,16 @@
 
   {
     "name": "Demarion Brown",
-    "role": "Memberr",
+    "role": "Member",
     "interests": ["Web", "AI", "Design"],
     "github": "demarionb348"
    
-  } 
+  }, 
+  {
+    "name": "Tiara Davis",
+    "role": "Member",
+    "interests": ["Web", "AI", "Data"],
+    "github": "tiaradarshay93"
+    
+  }
 ]
